@@ -23,7 +23,7 @@ import com.appsdeveloperblog.photoapp.api.users.service.UsersService;
 
 @Configuration
 @EnableWebSecurity
-@EnableMethodSecurity(prePostEnabled = true, securedEnabled = true)  
+@EnableMethodSecurity(prePostEnabled = true, securedEnabled = true)
 public class WebSecurity {
 
     private final Environment environment;
